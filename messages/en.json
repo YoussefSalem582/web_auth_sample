@@ -1,0 +1,73 @@
+{
+  "app": {
+    "name": "Paymob Starter",
+    "tagline": "Next.js + Supabase + Paymob, ready to build on."
+  },
+  "nav": {
+    "home": "Home",
+    "demo": "Pay demo",
+    "dashboard": "Dashboard",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "theme": "Toggle theme",
+    "language": "العربية"
+  },
+  "home": {
+    "title": "Ship a payment flow before lunch",
+    "subtitle": "Auth, database, Arabic/English with real RTL, and a working Paymob Unified Checkout. Delete the demo, keep the plumbing.",
+    "ctaDemo": "Try the payment demo",
+    "ctaSignUp": "Create an account",
+    "featuresTitle": "What is already wired",
+    "featureAuth": "Email + password auth with protected routes",
+    "featureI18n": "Arabic (default) and English with full RTL",
+    "featurePaymob": "Paymob Intention API + HMAC-verified webhook",
+    "featureDb": "Supabase orders table with RLS"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "signInTitle": "Sign in",
+    "signInSubtitle": "Welcome back.",
+    "signInAction": "Sign in",
+    "signUpTitle": "Create an account",
+    "signUpSubtitle": "Takes about ten seconds.",
+    "signUpAction": "Sign up",
+    "noAccount": "No account yet?",
+    "haveAccount": "Already have an account?",
+    "checkEmail": "Check your inbox to confirm your email, then sign in.",
+    "invalid": "Email or password is wrong."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "signedInAs": "Signed in as {email}",
+    "ordersTitle": "Your orders",
+    "empty": "No orders yet. Run the payment demo.",
+    "colAmount": "Amount",
+    "colStatus": "Status",
+    "colRef": "Paymob order",
+    "colDate": "Created"
+  },
+  "demo": {
+    "title": "Payment demo",
+    "subtitle": "One button, the whole Paymob flow: intention → Unified Checkout → webhook.",
+    "pay": "Pay 100 EGP",
+    "paying": "Opening checkout…",
+    "error": "Could not start checkout: {message}",
+    "note": "Payment is only marked paid when Paymob calls the webhook, not when the browser comes back."
+  },
+  "checkout": {
+    "successTitle": "Payment received",
+    "successBody": "Paymob accepted the payment. The order is confirmed once the webhook lands — usually within a second.",
+    "failureTitle": "Payment failed",
+    "failureBody": "The payment did not go through. Nothing was charged.",
+    "orderRef": "Order reference",
+    "backHome": "Back to home",
+    "tryAgain": "Try again"
+  },
+  "status": {
+    "pending": "Pending",
+    "paid": "Paid",
+    "failed": "Failed"
+  }
+}

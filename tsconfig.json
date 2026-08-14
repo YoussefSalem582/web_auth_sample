@@ -30,5 +30,7 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  // Tests run through `node --experimental-strip-types`, which needs explicit
+  // .ts import specifiers that `next build` rejects. Keep them out of the build.
+  "exclude": ["node_modules", "**/*.test.ts"]
 }
